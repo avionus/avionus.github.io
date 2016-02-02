@@ -1,14 +1,19 @@
 /* Basic Styling */
 
 /* Header */
+header {
+	background: no-repeat cover url(../pictures/header-image.jpg);
+}
 h1 {
 	font-family: 'Audiowide', sans-serif;
 	font-size: 5em;
 	text-align: center;
+	margin: 10px 0; 
 }
 #sub-heading {
 	font-family: 'Rajdhani', sans-serif;
 	text-align: center;
 	color: #ddd;
 	border-bottom: 3px solid pink;
+	padding-bottom: 10px;
 }
