@@ -2,11 +2,13 @@
 
 /* Header */
 h1 {
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Audiowide', sans-serif;
 	font-size: 5em;
 	text-align: center;
-	border-bottom: 5px solid pink;
 }
-body {
-	background-color: orange;
+#sub-heading {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	color: #ddd;
+	border-bottom: 3px solid pink;
 }
