@@ -2,7 +2,7 @@
 
 /* Header */
 header {
-	background: no-repeat cover url(../pictures/header-image.jpg);
+	background: no-repeat cover url(pictures/header-image.jpg);
 }
 h1 {
 	font-family: 'Audiowide', sans-serif;
