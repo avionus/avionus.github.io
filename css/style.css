@@ -3,6 +3,9 @@
 /* Header */
 h1 {
 	font-family: 'Russo One', sans-serif;
+	font-size: 5em;
+	text-align: center;
+	border-bottom: 5px solid pink;
 }
 body {
 	background-color: orange;
