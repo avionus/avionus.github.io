@@ -1,0 +1,9 @@
+$("#about").click(function(){
+	$(".paragraph1").slideToggle("slow");
+});
+$("#portfolio").click(function(){
+	$(".paragraph2").slideToggle("slow");
+});
+$("#contact").click(function(){
+	$(".paragraph3").slideToggle("slow");
+});

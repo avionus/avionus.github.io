@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> HellaDecimal | Yana Price: Web Developer</title>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> HellaDecimal</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href='https://fonts.googleapis.com/css?family=Audiowide|Rajdhani' rel='stylesheet' type='text/css'>
+    	<link href="css/bootstrap.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<a href="index.html"><h1> HellaDecimal Productions</h1></a>
-			<h3 id="sub-heading">The portfolio of web developer Yana Price</h3>
+			<h1 id="name"> HellaDecimal</h1>
+			<p> </p>
 		</header>
-		<div class="main">
-			<div id="introduction">
-					<h2>Welcome!</h2>
-						<p>Hello, and welcome to my website! This page serves as a portfolio for my personal projects, as well as a place to find more information on myself, if you'd like it.</p>
-						<p>Feel free to explore the site and my projects, and contact me if you'd like to discuss hiring me for freelance work or otherwise.</p>
+		<div class="row">
+			<div class="col-lg-4">
+				<h3 id="about"> About</h3>
+				<img src="blueme.jpeg" class="paragraph1 me">
+				<p class="paragraph1">
+					Hello! My name is Yana, and I'm a 25 year old native Berkely-ite. I've lived in the Bay Area for my entire life, except for a brief stay in Pennsylvania and England for college, where I studied psychology. After college, I took up writing as a hobby, as well as sewing and cooking. I really fell in love with writing and, considering that linguistics was my first idea for a college major, it really was nice to experiment with language on my own.
+
+					<p class="paragraph1">With that in mind, and with a desire to improve the world around me both online and in the physical sense, I decided to dive head first into learning to code. I've made a few websites, and taught myself Ruby, JavaScript, Rails, JQuery, HTML and CSS. Armed with this knowledge, I'm more than ready to work. </p>
+				</p>
 			</div>
-			<div id="about-me">
-				<h3>About Me</h3>
-					<p>Learn more about my coding skills, who I am and what I like to do when I'm not infront of a computer screen. </p>
-						<a href="aboutme.html"><div class="arrow">⇝ </div></a>
+			<div class="col-lg-4">
+				<h3 id="portfolio"> Portfolio</h3>
+				<div class="paragraph2">
+					<a href="firstiteration.png">
+						<img src="firstiteration.png">
+					</a>
+					<a href="wordpresspage.png">
+						<img src="wordpresspage.png">
+					</a>
+					<a href="treehousepage.png">
+						<img src="treehousepage.png">
+					</a>
+					<a href="firstwebpage.png">
+						<img src="firstwebpage.png">
+					</a>
+					<p>
+					A few of the projects I've made. Click the picture for a bigger view.
+				</p></div>
 			</div>
-			<div id="portfolio">
-				<h3>Portfolio</h3>
-					<p>See the projects I've been working on. </p>
-						<a href="portfolio.html"><div class="arrow">⇝ </div></a>
+			<div class="col-lg-4">
+				<h3 id="contact"> Contact</h3>
+				<p class="paragraph3">
+					Email me at <a href="mailto:avionus@gmail.com">avionus@gmail.com</a>.
+					Check out my <a href="github.com/avionus">Github</a>, or hit me up on <a href="linkedin.com/in/yanaprice">LinkedIn</a>.
+				</p>
 			</div>
-			<div id="contact">
-				<h3>Contact</h3>
-					<p>Reach out to me about projects or hiring me for freelance projects. </p>
-						<a href="contact.html"> <div class="arrow">⇝ </div></a>
-			</div>
-			</div>
-		<footer> 
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="aboutme.html">About Me</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-			Copywright 2016 | HellaDecimal Productions</footer>
+		</div>
+		<footer>
+			Copyright 2016 | Yana Price
+		</footer>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="logic.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
